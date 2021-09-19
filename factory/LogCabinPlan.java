@@ -24,7 +24,7 @@ public class LogCabinPlan extends HousePlan {
     }
 
     /**
-     * Sets the feaatures for a LogCabinPlan
+     * Sets the features for a LogCabinPlan
      */
     protected void setFeatures()
     {
@@ -32,6 +32,10 @@ public class LogCabinPlan extends HousePlan {
         features.add("High Insulation");
         features.add("Rustic Effect");
     }
+
+    /**
+     * Calls the superclass tostrings method.
+     */
     public String toString()
     {
         return "Log Cabin\n" + super.toString();
